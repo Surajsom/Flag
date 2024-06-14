@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.Flag{
+    height: 600px;
+    width: 900px;
+    border: solid black 2px;
+    position: relative;
+}
+.Kesari{
+    background-color: #FF9933;
+    height: 200px;
+}
+.white{
+    background-color: #FFFFFF;
+    height: 200px;
+
+    
+
+}
+.green{
+    background-color: #138808;
+    height: 200px;
+
+}
+.ashokachakra{
+    border: solid 1px #000080;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    /* clip-path: polygon(50% 0, 100% 65%, 50% 100%, 0 65%); */
+    
+    left: 352px;
+
+}
+.ashokachakra .line {
+    height: 100%;
+    width: 1px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    background: #000080;
+}
+.line:nth-child(1) {
+    transform: rotate(15deg)
+}
+.line:nth-child(2) {
+    transform: rotate(30deg)
+    
+}
+ 
+.line:nth-child(3) {
+    transform: rotate(45deg)
+}
+ 
+.line:nth-child(4) {
+    transform: rotate(60deg)
+}
+ 
+.line:nth-child(5) {
+    transform: rotate(75deg)
+}
+ 
+.line:nth-child(6) {
+    transform: rotate(90deg)
+}
+ 
+.line:nth-child(7) {
+    transform: rotate(105deg)
+}
+ 
+.line:nth-child(8) {
+    transform: rotate(120deg)
+}
+ 
+.line:nth-child(9) {
+    transform: rotate(135deg)
+}
+ 
+.line:nth-child(10) {
+    transform: rotate(150deg)
+}
+ 
+.line:nth-child(11) {
+    transform: rotate(165deg)
+}
+ 
+.line:nth-child(12) {
+    transform: rotate(180deg)
+}
+
+
+.ashokachakra {
+    animation-name: ashokachakra;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+}
+ 
+@keyframes ashokachakra {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
